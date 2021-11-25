@@ -1,38 +1,101 @@
-1. 
+1. Which of the following is true about class inheritance?
+
+a)Class inheritance lets you reuse code and makes your program easier to maintain.
+
+b)Properties and functions of the parent class(es) are available to the child class.
+
+c)You can define additional properties and functions that are specific to subclasses.
+
+d)You can override parent class members in subclasses.
+
+e)All of the above
+
 
 Ans : 
 
 
-2. 
+2. Which of the following are true about abstract classes?
+Choose as many answers as you see fit.
+
+
+a)They can be extended by subclasses and implementations can be provided for abstract members of the class.
+
+b)They have an implementation for all of their properties and functions.
+
+c)They may have abstract properties or abstract functions.
+
+d)They can be instantiated.
+
+e)They are not fully implemented and cannot be instantiated.
+
+f)They need to be marked with the open keyword to be extended
 
 Ans : 
 
 
-3. 
+3. Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+The 
+Fill in the blank...
+ is called when you create an instance of the class.
 
 Ans : 
 
 
-4. 
+4. How do you mark a property to be used only inside its current class?
+
+a)Use the override keyword.
+
+b)Use the val keyword.
+
+c)Use the private keyword.
+
+d)Use the closed keyword.
+
+e)It is not possible to do this.
+
 
 Ans : 
 
 
-5. 
+5. Select all answers that are true for this XML layout when displayed on the screen. (You can sketch this out on a piece of paper first, if that helps.)
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textViewA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/textViewB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+Choose as many answers as you see fit.
+
+
+a)TextView A appears vertically stacked on top of TextView B.
+
+b)The starting edge of TextView A is aligned to the starting edge of the parent view.
+
+c)The starting edge of TextView B is aligned to the starting edge of the parent view.
+
+d)TextView B is horizontally and vertically centered within the parent.
+
+e)The tops of TextView A and TextView B are aligned to top of the parent view.
+
+f)The width of TextView A matches the width of the parent ConstraintLayout.
+
+
 
 Ans : 
 
 
-6. 
-
-Ans : 
-
-
-7. 
-
-Ans : 
-
-
-8. 
-
-Ans : 
