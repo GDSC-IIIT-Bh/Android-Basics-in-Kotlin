@@ -1,38 +1,84 @@
-1. 
+1. True or False: onCreateView() is only called once for a fragment’s entire lifecycle.
+
+a)True
+
+b)False
 
 Ans : 
 
 
-2. 
+2. Which of the following is a benefit of using fragments?
+
+a)Navigation between fragments allows for more sophisticated user interface patterns, such as tab bars.
+
+b)Using multiple fragments within an activity allows for an adaptive layout across multiple screen sizes.
+
+c)The same fragments can be reused across multiple activities.
+
+d)All of the above
+
 
 Ans : 
 
 
-3. 
+3. In the fragment lifecycle, which of the following tasks should be performed in onViewCreated()?
+Choose as many answers as you see fit.
+
+
+a)Inflating the layout
+
+b)Binding view objects to properties in your fragment
+
+c)Configuring the options menu
+
+d)Setting properties of individual views, such as a recycler view’s adapter
+
 
 Ans : 
 
 
-4. 
+4. In the fragment lifecycle, which of the following tasks should be performed in onCreateView()?
+
+a)Inflating the layout
+
+b)Binding view objects to properties in your fragment
+
+c)Configuring the options menu
+
+d)Setting properties of individual views, such as a recycler view’s adapter
+
 
 Ans : 
 
 
-5. 
+5.Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+The 
+Fill in the blank...
+ method needs to be overridden in the host activity to ensure your app’s fragment-based navigation responds to the app’s "Up" button.
+
+ 
 
 Ans : 
 
 
-6. 
+6. Given the code for navigating between two fragments in a note-taking app, a list of books and a list of notes, which of the following is true about the navigation graph file?
+
+val action = BooksListFragmentsDirections.actionBooksListToNotesList(bookIndex = index)
+holder.view.findNavController().navigate(action)
+
+A: Both the books list and notes list are destinations.
+
+B: The books list fragment has an argument called bookIndex.
+
+C: There’s an action defined on the navigation graph that goes from the books list to the notes list.
+
+D: A, B, and C are true.
+
+E: Only A and C are true.
+
 
 Ans : 
 
 
-7. 
-
-Ans : 
-
-
-8. 
-
-Ans : 
