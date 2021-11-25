@@ -1,38 +1,96 @@
-1. 
+1. What does IDE stand for?
 
-Ans : 
+a)Integrated Development Environment
 
+b)Independent Design Environment
 
-2. 
+c)Ideal Developer Environment
 
-Ans : 
+d)Intelligent Design Environment
 
-
-3. 
-
-Ans : 
+Ans : (a)
 
 
-4. 
-
-Ans : 
-
-
-5. 
-
-Ans : 
+2. Which of the following are advantages of using Android Studio?
+Choose as many answers as you see fit.
 
 
-6. 
+a)It can help prevent typos and other mistakes in your code.
 
-Ans : 
+b)It comes with a virtual device called an emulator that can run your app.
+
+c)It can show you a real-time preview of how your app will look on-screen while you code.
+
+d)It can automatically translate your app into other languages.
+
+Ans : (c)
 
 
-7. 
+3. What does “Minimum SDK” refer to in an Android Studio project?
 
-Ans : 
+a)The minimum amount of storage that your app requires for download
+
+b)The minimum number of devices that your app can access
+
+c)The minimum download speed that your app requires
+
+d)The minimum version of Android that your app can run on
+
+Ans : (b)
 
 
-8. 
+4. What is the purpose of using a virtual device, or emulator, in Android Studio?
 
-Ans : 
+a)To show a variety of error messages to users
+
+b)To experiment with app code safely
+
+c)To test your app on a device without having that physical device
+
+d)To see what your app looks like in a web browser
+
+
+Ans : (c)
+
+
+5. In Android Studio, what is a project template good for?
+Choose as many answers as you see fit.
+
+
+a)It causes Android Studio to download files faster.
+
+b)It makes getting started on building a new app faster.
+
+c)It provides a structure that follows best practices.
+
+d)It is the only way to build apps that can be previewed in Android Studio.
+
+e)It makes building aa new app less error-prone by pre-populating the project with some app code.
+
+
+Ans : (c)
+
+
+6. How do you create a new project in Android Studio?
+
+a) Log out of Android Studio, and navigate to your project folder to find instructions.
+
+b) If you have a project already open, select File > New > New Project from the Android Studio menu.
+
+c) In the “Welcome to Android Studio” window, click “Start a new Android Studio project.”
+
+d) Create a new file on your computer, and title it “New Android Studio Project."
+
+e)Both B and C are ways to create a new project in Android Studio.
+
+f)None of the above
+
+
+Ans : (b)
+
+
+ 
+
+ 
+
+
