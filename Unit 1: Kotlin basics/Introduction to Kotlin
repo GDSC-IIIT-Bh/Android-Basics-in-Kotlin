@@ -1,0 +1,63 @@
+1.  What is a program? 
+    (a)A specific task
+    (b)A tool that helps you write Kotlin code
+    (c)A series of instructions that a computer system executes to accomplish some action
+    (d)A defined set of instructions that tells your computer to print “Happy Birthday!”
+
+Ans : (c)
+
+
+2.  Which keyword do you use to define a function in Kotlin?
+    (a)fun
+    (b)func
+    (c)function
+    (d)newFunction
+    (e)main
+
+Ans : (a)
+
+
+3. Which of the following do you need to create a Kotlin program that prints a line of text?(Choose as many answers as you see fit.)
+    (a)comment describing what your program does
+    (b)a main() function
+    (c)curly braces {} around the instructions to the system
+    (d)a call to print() or println()
+    (e)a piece of text surrounded by quotation marks
+
+Ans : (b),(c),(d),(e)
+
+
+4.  What do you expect this Kotlin code to do? 
+        fun main(args: Array<String>) {
+        println("Hello, world!")
+        println("It's a sunny and warm day!")
+        }
+
+    (a)Print one line of text
+    (b)Print two lines of text
+    (c)Print three lines of text
+    (d)Print two lines of text separated by a blank line
+
+Ans : (b)
+
+
+5. How would you modify this main() function so that it prints a 6-layer cake for someone's 4th birthday?
+    (a)Set val age to 6, set val layers to 4
+    (b)Set val age to "4", set val layers to "6"
+    (c)Set val age to 4, set val layers to 6
+    (d)Leave the code as-is
+
+Ans : (c)
+
+
+6.  Which of these options correctly calls the function, below, and passes it valid input arguments?
+        fun createMessage(name: String, location: String, age: Int) {
+        println("My name is ${name}. I am from ${location}, and I am ${age} years old.")
+        }
+
+    (a)createMessage("Amy", "Australia", 20)
+    (b)createMessage("Evan", England, 9)
+    (c)createmessage("Tom", "Thailand", “40”)
+    (d)createMessage(Heather, “Haiti”, 7)
+
+Ans : (a)
