@@ -1,38 +1,69 @@
-1. 
+1. True or False: You can use the same ViewModel for multiple Activities or Fragments to share data.
+
+True
+
+False
+
 
 Ans : 
 
 
-2. 
+2. What is the correct way to access the shared view model using the Kotin property delegate approach?
+
+a)val viewModel: OrderViewModel by viewModels()
+
+b)val viewModel: OrderViewModel by activityViewModels()
+
+c)val viewModel: OrderViewModel by sharedViewModels()
+
+d)val viewModel: OrderViewModel by fragmentViewModels()
 
 Ans : 
 
 
-3. 
+3. Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+Use a LiveData 
+Fill in the blank...
+ to return a different LiveData instance based on the value of another instance.
+
+
 
 Ans : 
 
 
-4. 
+4. How can the apply function in Kotlin be used to configure an object?
+
+a)It can directly apply the object.
+
+b)It can apply a set of assignments to the object.
+
+c)It can apply new instances from the object.
+
+d)It is not recommended to use apply to configure an object.
+
 
 Ans : 
 
 
-5. 
+5. Using a data binding layout expression, what’s the correct syntax for adding an attribute to the button in this layout in order to bind a click listener to it?
+
+<Button
+    android:id="@+id/next_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/next" />
+
+a)android:onClick="@{detailFragment.next()}"
+
+b)android:onClick="@{(Int) -> detailFragment()}"
+
+c)android:click="@{() -> detailFragment.next()}"
+
+d)android:onClick="@{() -> detailFragment.next()}"
+
 
 Ans : 
 
 
-6. 
-
-Ans : 
-
-
-7. 
-
-Ans : 
-
-
-8. 
-
-Ans : 

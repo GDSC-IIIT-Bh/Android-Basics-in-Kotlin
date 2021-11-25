@@ -1,38 +1,134 @@
-1. 
+1. Which of the following is an example of a class?
+Choose as many answers as you see fit.
+
+
+a)A Car class that has a make and model, and that can be driven
+
+b)A Flower class that has a scent
+
+c)A Puppy class that has breed, weight and age, and that can bark
+
+d)A ShoppingCart class that has a cart size and cart value, and that can hold items
+
+e)A Song class that has lyrics
+
+f)None of these are examples of a class.
+
+Ans:
+
+
+2.Which of the following is a difference between a class and an instance?
+Choose as many answers as you see fit.
+
+
+a)You can think of a class as a blueprint and an instance as the actual “thing".
+
+b)A class is like architectural plans for a bridge, and the Golden Gate bridge an instance of those plans.
+
+c)A class is for defining categories of "things", while instances are for defining their properties.
+
+d)You can create multiple instances from a class, but you can't create classes from instances.
+
+Ans:
+
+
+3.For each of the following types of information, select whether it should be part of a class or an instance.
+Each answer only matches one item.
+
+a)Information about properties shared by all "things" belonging to the class, such as number of sides, number of legs, or that it has a color.
+
+ 	
+b)The specifics about a property, such as the specific color of a “thing” that can have a color.
+
+ 	
+4.True or false? Every MainActivity class in Android must have a main() function.
+
+a)True
+
+b)False
+
+Ans:
+
+
+5.Which of the following is NOT a way for creating a comment in Kotlin?
+Choose as many answers as you see fit.
+
+
+a)Add // at the beginning of or inside a line and anything after that // is considered a comment.
+
+b)Put /* or /** to start a block comment, and end it with */.
+
+c)Use // to turn the rest of a function into a comment.
+
+d)Use /* to start a comment that is one line long.
+
+Ans:
+
+
+6.Which of the following statements about a conditional statement is true?
+Choose as many answers as you see fit.
+
+
+a)A conditional statement is a way for you to set up a condition and ensure that code following it is only executed if that condition is met.
+
+b)A conditional statement does not require any keywords.
+
+c)A conditional statement should only be used with integers as input.
+
+d)A conditional statement can be used within functions to return output based on conditions defined in that function.
+
+Ans:
+
+
+
+7.What is a good reason for you to add comments to your code?
+
+a)To explain to yourself or others why the code is written a certain way.
+
+b)To structure code, like chapter headings in books.
+
+c)To point out some part of the code that is very important.
+
+d)To explain to other developers how to use your code for their own programs.
+
+e)All of the above
+
+f)None of the above
+
+Ans:
+
+
+8.Which of the following are Kotlin data types?
+Choose as many answers as you see fit.
+
+
+a)IntRange
+
+b)Num
+
+c)Int
+
+d)Boolean (true or false)
+
+Ans:
+
+
+
+9.Which of the following are valid keywords used in conditional statements in Kotlin?
+Choose as many answers as you see fit.
+
+
+a)if, else
+
+b)if, then, stop
+
+c)when
+
+d)repeat, finish
 
 Ans : 
 
 
-2. 
-
-Ans : 
 
 
-3. 
 
-Ans : 
-
-
-4. 
-
-Ans : 
-
-
-5. 
-
-Ans : 
-
-
-6. 
-
-Ans : 
-
-
-7. 
-
-Ans : 
-
-
-8. 
-
-Ans : 

@@ -1,38 +1,122 @@
-1. 
+1. True or False: INSERT, UPDATE, and DELETE can be used to modify multiple rows in a data table.
+
+True
+
+False
+
 
 Ans : 
 
 
-2. 
+2. Which of the following are true about the DISTINCT keyword?
+Choose as many answers as you see fit.
+
+
+a.The DISTINCT keyword can be used in an aggregate function.
+
+b.The DISTINCT keyword can be used to determine all the unique values in a column.
+
+c.The DISTINCT keyword can only be used when selecting a single column.
+
+d.The DISTINCT keyword can be used as part of the WHERE clause.
+
 
 Ans : 
 
 
-3. 
+3. Which order of clauses in a SELECT statement is correct?
+
+a.WHERE, LIMIT, ORDER BY, GROUP BY
+
+b.WHERE, LIMIT, GROUP BY, ORDER BY
+
+c.WHERE, ORDER BY, GROUP BY, LIMIT
+
+d.WHERE, GROUP BY, ORDER BY, LIMIT
 
 Ans : 
 
 
-4. 
+4. True or False: The ORDER BY clause returns results in descending order by default.
+
+True
+
+False
+
 
 Ans : 
 
 
-5. 
+5. Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+SQL stands for 
+Fill in the blank...
+.
+
+
 
 Ans : 
 
 
-6. 
+6. True or False: You can use the * to select all columns in a data table
+
+True
+
+False
 
 Ans : 
 
 
-7. 
+7. A primary key allows for:
+Choose as many answers as you see fit.
+
+
+a.Databases to represent relationships between tables.
+
+b.Rows in one table to reference rows in another table.
+
+c.Contents of individual rows in a table to be unique.
+
+d.A unique identifier for each row in a table.
+
+
 
 Ans : 
 
 
-8. 
+8. Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+Room is an ORM Library. ORM stands for 
+Fill in the blank...
+.
+
+
 
 Ans : 
+
+
+9.Which of the following are true about ListAdapter?
+Choose as many answers as you see fit.
+
+
+a.A ListAdapter is not a RecyclerViewAdapter, and thus, cannot be used with a RecyclerView.
+
+b.Like a RecyclerViewAdapter, a ListAdapter uses a ViewHolder class.
+
+c.ListAdapter makes use of DiffUtil.
+
+d.The implementation for areContentsTheSame() compares only the IDs between entities, whereas areItemsTheSame() compares all the properties.
+
+Ans:
+
+
+
+10.Which of the following is false about using flow?
+
+a.Returning a regular type, like a list, from a DAO function won't allow your app to respond to data changes.
+
+b.Data returned as a flow can be processed using the collect() function.
+
+c.A flow can only be accessed from a coroutine.

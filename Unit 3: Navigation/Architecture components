@@ -1,29 +1,69 @@
-1. 
+1. Which of the following are reasons to use a ViewModel?
+Choose as many answers as you see fit.
+
+
+a)A ViewModel and its data can survive orientation changes in an Activity/Fragment.
+
+b)A ViewModel allows you to separate code that updates the UI from code that doesn’t need to rely on the UI or its lifecycle.
+
+c)A ViewModel prevents your data from updating the UI automatically.
+
 
 Ans : 
 
 
-2. 
+2. A ViewModel is destroyed after which of the following ?
+
+a)always after onStop
+
+b)always after onDestroy
+
+c)after onDestroy, if it not a configuration change
 
 Ans : 
 
 
-3. 
+3. True or False: You should execute time-consuming tasks and I/O requests in your Activity/Fragment.
+
+a)True
+
+b)False
 
 Ans : 
 
 
-4. 
+4. Why should you initialize and store LiveData in your ViewModel instead of a UI Controller?
+
+a)Both the ViewModel and LiveData are lifecycle aware.
+
+b)To ensure that the LiveData isn’t destroyed when the UI Controller is destroyed.
+
+c)To hide or separate implementation details making your app more flexible.
+
+d)All of the above
+
 
 Ans : 
 
 
-5. 
+5. allows you to do which of the following for changes?
+
+a)a LiveData object
+
+b)any mutable object
+
+c)any property in a ViewModel
+
+d)any property in a ViewModel or LiveData object
 
 Ans : 
 
 
-6. 
+6. True or False: It’s OK for a ViewModel to directly reference a View or LifecycleOwner class.
+
+True
+
+False
 
 Ans : 
 

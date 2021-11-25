@@ -1,38 +1,117 @@
-1. 
+1. Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+Before running the below code, simpleList should be initialized as a 
+Fill in the blank...
+ list.
+
+
+a)println(simpleList)
+b)simpleList.add(-5)
+c)simpleList.remove(4)
+d)println(simpleList)
+
+Ans:
+
+
+
+2.Which of the following statements are valid?
+Choose as many answers as you see fit.
+
+
+a)val list = listOf(1, 2, 5)
+
+b)val oddNumbers = mutableListOf("1", "9", "15")
+
+c)val listValues: MutableList<Boolean>
+
+d)val fruits = list("apple", "banana", "pear")
+
+e)val words: List<String> = listOf("jump", "run", "skip")
+
+Ans:
+
+
+
+3.Why does a RecyclerView need an Adapter?
+
+a)To adapt data to display on a specific device type
+
+b)To create a new ViewGroup
+
+c)To adapt data from a data source into JSON
+
+d)To create new ViewHolders and bind data to them
+
+Ans:
+
+
+
+
+
+
+4.Which of the following are advantages to using RecyclerView?
+Choose as many answers as you see fit.
+
+
+a)RecyclerView comes with built-in layout managers.
+
+b)RecyclerView lets you use packages to organize your code.
+
+c)RecyclerView helps save processing time, which can help scrolling through a list smoother.
+
+d)RecyclerView is designed to be efficient for lists by reusing views that have scrolled off the screen.
+
+e)RecyclerView automatically incorporates Material Design components.
+
+Ans:
+
+
+
+
+5.Which of the following is true about packages?
+Choose as many answers as you see fit.
+
+
+a)You can use packages to organize your code.
+
+b)In order to use a class from another package, you have to explicitly import it in your code.
+
+c)The package name is usually structured from specific to general.
+
+d)It is good practice to use packages to group classes by functionality.
+
+
+
+6.What should you do to ensure that the correct type of resource ID is passed in to a constructor?
+
+a)Use an Adapter to force the type.
+
+b)Only use a stringResourceId or imageResourceId.
+
+c)Use resource annotations.
+
+d)Use a naming convention to pass the ID in the form R.<type>.
+
+e)None of the above
+
+Ans:
+
+
+
+7.Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+In the below code, 
+Fill in the blank...
+ should be written in the for loop, so that the output returned is the list of numbers 1 through 3, with each number printed on a new line.
+
+
+val numbers = listOf(1, 2, 3)
+for (_______) {
+  println(num)
+}
 
 Ans : 
 
 
-2. 
-
-Ans : 
-
-
-3. 
-
-Ans : 
-
-
-4. 
-
-Ans : 
-
-
-5. 
-
-Ans : 
-
-
-6. 
-
-Ans : 
-
-
-7. 
-
-Ans : 
-
-
-8. 
-
-Ans : 

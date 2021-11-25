@@ -1,38 +1,108 @@
-1. 
+1. Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+The 
+Fill in the blank...
+ thread, sometimes called the UI thread, is responsible for updating the screen in an Android app.
 
 Ans : 
 
 
-2. 
+2. Which of the following are some of the pitfalls of directly using threads in your code?
+Choose as many answers as you see fit.
+
+
+a)Race conditions
+
+b)Inconsistent output
+
+c)Unresponsive UI
+
+d)Thread is deprecated
 
 Ans : 
 
 
-3. 
+3. Which of the following is true about coroutines?
+
+a)Once started, a coroutine cannot be canceled.
+
+b)A coroutine always runs on the main thread.
+
+c)A coroutine may or may not execute.
+
+d)Coroutines avoid the need to create new threads, by running every task on the same thread
 
 Ans : 
 
 
-4. 
+4. True or False: If a function already calls a suspend function, then it does not need to be marked as a suspend function itself.
+
+True
+
+False
+
 
 Ans : 
 
 
-5. 
+5. Which of the following are suspend functions?.
+Choose as many answers as you see fit.
+
+
+a.async()
+
+b.The lambda passed into async()
+
+c.runBlocking()
+
+d.The lambda passed into runBlocking()
+
 
 Ans : 
 
 
-6. 
+6. Which of the following are false about async() and runBlocking()?
+
+a.Both functions take a CoroutineScope (a suspend function) as a parameter.
+
+b.Both functions return a Deferred
+
+c.You'll typically not use runBlocking in Android app code.
+
+d.When using async, you need to use await() to access the returned value.
+
 
 Ans : 
 
 
-7. 
+7. True or False: In most apps, you would create coroutines using the global scope.
+
+True
+
+False
 
 Ans : 
 
 
-8. 
+8. What is responsible for determining which thread is used behind the scenes by a coroutine?
+
+a.CoroutineScope
+
+b.Dispatcher
+
+c.Job
+
+d.GlobalScope
 
 Ans : 
+
+
+9 .Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+A 
+Fill in the blank...
+ is similar to a promise or future in other languages and serves as a placeholder for a return value.
+
+Ans:

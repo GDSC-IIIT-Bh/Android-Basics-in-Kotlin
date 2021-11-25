@@ -1,38 +1,113 @@
-1. 
+1. Which of the following is false about the @Query annotation?
+
+a.The @Query annotation is used with a method in the DAO.
+
+b.The @Query annotation corresponds to a SELECT query.
+
+c.The @Query annotation can pass arguments into a SQL statement by preceding their name with a colon.
+
+d.The @Query annotation can only be used with a suspend function.
+
 
 Ans : 
 
 
-2. 
+2. Which of the following are true about the DAO?
+Choose as many answers as you see fit.
+
+
+a.DAO functions use annotations like @Insert and @Update that correspond to an operation on the database.
+
+b.DAO functions are typically called directly from a fragment.
+
+c.DAO functions can return a flow.
+
+d.Instances of DAO classes are referenced in the AppDatabase class.
+
 
 Ans : 
 
 
-3. 
+3. Why do you need to use the synchronized() function when creating the database?
+Choose as many answers as you see fit.
+
+
+a.synchronized() is used to avoid race conditions.
+
+b.synchronized() ensures only one thread can enter the block of code at once.
+
+c.Doing so allows multiple copies of the database to be created.
+
+d.Calling synchronized() allows this code to be safely accessed from multiple threads
 
 Ans : 
 
 
-4. 
+4. Which of the following is false about the AppDatabase class?
+
+a.AppDatabase is an abstract class that inherits from RoomDatabase.
+
+b.The AppDatabase holds a reference to the view models.
+
+c.The @Database annotation specifies the entities (tables) in the database.
+
+d.The getDatabase() function can create a new
 
 Ans : 
 
 
-5. 
+5. The @Insert and @Delete annotations can be used without providing a SQL statement.
+
+True
+
+False
+
 
 Ans : 
 
 
-6. 
+6. Which of the following is true about the ViewModel in an app using Room?
+Choose as many answers as you see fit.
+
+
+The ViewModel interacts with the DAO.
+
+The ViewModel updates the UI on the main thread.
+
+The ViewModel exposes data from the database to your app's UI.
+
+The ViewModel is held by a reference in the AppDatabase class.
+
+
 
 Ans : 
 
 
-7. 
+7.Fill-in-the-blanks
+Enter one or more words to complete the sentence.
+
+To handle conflicts when inserting into a database, you can pass an 
+Fill in the blank...
+, such as IGNORE, to the @Insert annotation. 
 
 Ans : 
 
 
-8. 
+8. The ViewModel factory is a class that inherits from ___ and is responsible for creating instances of the ViewModel class.
+
+a.ViewModelFactory
+
+b.ViewModelFactory.Provider
+
+c.ViewModelProvider.Factory
+
+d.ViewModelProvider
 
 Ans : 
+
+
+10.True or False: In a Room app, the Application class allows other objects to access the AppDatabase class.
+
+True
+
+False
