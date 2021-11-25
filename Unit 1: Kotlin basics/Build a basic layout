@@ -1,107 +1,78 @@
 1. Which of the following elements is considered a View in an Android app?
+    (a)An image
+    (b)A clickable button
+    (c)Text on the screen
+    (d)All of the above
+    (e)None of the above
 
-a)An image
-
-b)A clickable button
-
-c)Text on the screen
-
-d)All of the above
-
-e)None of the above
-
-Ans:
-
-
-2.What is the main purpose of a ViewGroup?
-
-a)It groups together the most common views that developers use in Android apps.
-
-b)It serves as a container for View objects, and is responsible for arranging the View objects within it.
-
-c)It is required to make a view interactive as a way to group TextViews on a screen.
-
-d)It is required to set colors and background images.
-
-Ans:
-
-
-3.Fill-in-the-blanks
-Enter one or more words to complete the sentence.
-
-The type of ViewGroup that helps you arrange the views inside of it in a flexible way is called a 
-Fill in the blank...
-.
-
-Which of the following are Attributes in Android?
-Choose as many answers as you see fit.
-
-
-a)text
-
-b)textSize
-
-c)textUse
-
-d)textColor
-
-e)textContent
-
-Ans:
-
-
-4.Fill-in-the-blanks
-
-Enter one or more words to complete the sentence.
-
-In Android, a graphic that can be drawn to the screen is generally referred to as a 
-Fill in the blank...
-.
-
-Which of the following is an example of a “constraint” that could be applied to a view in a ConstraintLayout ViewGroup in the Layout Editor?
-Choose as many answers as you see fit.
-
-
-a)A view that must always be a minimum distance away from the edge of its container
-
-b)A view that must always be free of warning triangles
-
-c)A view that must always be to the right of another view
-
-d)A view that must always be the topmost view inside a container
-
-e)A view that must always include a contentDescription attribute
-
-Ans:
+Ans: (d)
 
 
 
-6.What is the purpose of the activity_main.xml file in the project you created?
+2. What is the main purpose of a ViewGroup?
+    (a)It groups together the most common views that developers use in Android apps.
+    (b)It serves as a container for View objects, and is responsible for arranging the View objects within it.
+    (c)It is required to make a view interactive as a way to group TextViews on a screen.
+    (d)It is required to set colors and background images.
 
-a)It provides the theme settings for your app.
-
-b)It lets your app users create their own custom views of the app.
-
-c)It stores all the images your app will use.
-
-d)It describes the layout of view groups and views for a screen.
-
-Ans:
+Ans: (b)
 
 
 
-7.Why should you use string resources instead of hard-coded strings in your apps?
-Choose as many answers as you see fit.
+3. Fill-in-the-blanks(Enter one or more words to complete the sentence.)
+
+    The type of ViewGroup that helps you arrange the views inside of it in a flexible way is called a ___________ .
+
+Ans: Constraint Layout
 
 
-a)It makes your app easier to translate.
 
-b)It allows you to use longer strings in your app.
+4. Which of the following are Attributes in Android?(Choose as many answers as you see fit.)
+    (a)text
+    (b)textSize
+    (c)textUse
+    (d)textColor
+    (e)textContent
 
-c)It allows you to apply special color attributes to your string.
+Ans: (a),(b),(d)
 
-d)It allows you to reuse the same string in multiple places in your program.
 
-Ans : 
+
+5. Fill-in-the-blanks. (Enter one or more words to complete the sentence.)
+
+    In Android, a graphic that can be drawn to the screen is generally referred to as a  ___________ .
+
+Ans: Drawable
+
+
+
+6. Which of the following is an example of a “constraint” that could be applied to a view in a ConstraintLayout ViewGroup in the Layout Editor?(Choose as many answers as you see fit.)
+    (a)A view that must always be a minimum distance away from the edge of its container
+    (b)A view that must always be free of warning triangles
+    (c)A view that must always be to the right of another vie
+    (d)A view that must always be the topmost view inside a container
+    (e)A view that must always include a contentDescription attribute
+
+Ans: (a),(c),(d)
+
+
+
+7. What is the purpose of the activity_main.xml file in the project you created?
+    (a)It provides the theme settings for your app.
+    (b)It lets your app users create their own custom views of the app.
+    (c)It stores all the images your app will use.
+    (d)It describes the layout of view groups and views for a screen.
+
+Ans: (d)
+
+
+
+8. Why should you use string resources instead of hard-coded strings in your apps?(Choose as many answers as you see fit.)
+    (a)It makes your app easier to translate.
+    (b)It allows you to use longer strings in your app.
+    (c)It allows you to apply special color attributes to your string.
+    (d)It allows you to reuse the same string in multiple places in your program.
+
+Ans : (a),(d)
 
 
